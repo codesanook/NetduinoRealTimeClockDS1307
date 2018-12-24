@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetduinoRealTimeClockDS1307", "NetduinoRealTimeClockDS1307\NetduinoRealTimeClockDS1307.csproj", "{7E897A75-0C83-4CF3-8BDD-270BBBBE5973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolbox.NETMF.Hardware.DS1307", "Hardware.DS1307\Toolbox.NETMF.Hardware.DS1307.csproj", "{20B106B7-EC8B-4970-83D6-38053A24C4BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolbox.NETMF.Hardware.Core", "Hardware.Core\Toolbox.NETMF.Hardware.Core.csproj", "{DA3E4C2A-C1DC-44CB-A0FE-DF2F5EB34664}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolbox.NETMF.Core", "Core\Toolbox.NETMF.Core.csproj", "{CBF2AD5F-2168-4605-BFCB-0256D65AD95B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E897A75-0C83-4CF3-8BDD-270BBBBE5973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E897A75-0C83-4CF3-8BDD-270BBBBE5973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E897A75-0C83-4CF3-8BDD-270BBBBE5973}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7E897A75-0C83-4CF3-8BDD-270BBBBE5973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E897A75-0C83-4CF3-8BDD-270BBBBE5973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E897A75-0C83-4CF3-8BDD-270BBBBE5973}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{20B106B7-EC8B-4970-83D6-38053A24C4BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20B106B7-EC8B-4970-83D6-38053A24C4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20B106B7-EC8B-4970-83D6-38053A24C4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20B106B7-EC8B-4970-83D6-38053A24C4BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA3E4C2A-C1DC-44CB-A0FE-DF2F5EB34664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3E4C2A-C1DC-44CB-A0FE-DF2F5EB34664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3E4C2A-C1DC-44CB-A0FE-DF2F5EB34664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3E4C2A-C1DC-44CB-A0FE-DF2F5EB34664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF2AD5F-2168-4605-BFCB-0256D65AD95B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF2AD5F-2168-4605-BFCB-0256D65AD95B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF2AD5F-2168-4605-BFCB-0256D65AD95B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF2AD5F-2168-4605-BFCB-0256D65AD95B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
