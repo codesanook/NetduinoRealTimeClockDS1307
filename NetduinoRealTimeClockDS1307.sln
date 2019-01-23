@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolbox.NETMF.Hardware.Core
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolbox.NETMF.Core", "Core\Toolbox.NETMF.Core.csproj", "{CBF2AD5F-2168-4605-BFCB-0256D65AD95B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMf.CommonExtensions", "NetMf.CommonExtensions\NetMf.CommonExtensions.csproj", "{58F72289-F396-4CCA-8120-B7179C05FF99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{CBF2AD5F-2168-4605-BFCB-0256D65AD95B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBF2AD5F-2168-4605-BFCB-0256D65AD95B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBF2AD5F-2168-4605-BFCB-0256D65AD95B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58F72289-F396-4CCA-8120-B7179C05FF99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58F72289-F396-4CCA-8120-B7179C05FF99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58F72289-F396-4CCA-8120-B7179C05FF99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58F72289-F396-4CCA-8120-B7179C05FF99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

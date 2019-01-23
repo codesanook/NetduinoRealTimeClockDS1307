@@ -61,6 +61,10 @@
       <Project>{20B106B7-EC8B-4970-83D6-38053A24C4BE}</Project>
       <Name>Toolbox.NETMF.Hardware.DS1307</Name>
     </ProjectReference>
+    <ProjectReference Include="..\NetMf.CommonExtensions\NetMf.CommonExtensions.csproj">
+      <Project>{58F72289-F396-4CCA-8120-B7179C05FF99}</Project>
+      <Name>NetMf.CommonExtensions</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Condition="EXISTS('$(NetMfTargetsBaseDir)$(TargetFrameworkVersion)\CSharp.Targets')" Project="$(NetMfTargetsBaseDir)$(TargetFrameworkVersion)\CSharp.Targets" />
   <Import Condition="!EXISTS('$(NetMfTargetsBaseDir)$(TargetFrameworkVersion)\CSharp.Targets')" Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
